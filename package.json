@@ -1,8 +1,23 @@
 {
-  "name": "react-example",
+  "name": "isha-example",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
+  "description": "daily use ",
+  "keywords": [
+    "na"
+  ],
+  "homepage": "https://github.com/RajAstha1/TO-DO-LIST-2#readme",
+  "bugs": {
+    "url": "https://github.com/RajAstha1/TO-DO-LIST-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajAstha1/TO-DO-LIST-2.git"
+  },
+  "license": "MIT",
+  "author": "isha",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
@@ -11,7 +26,9 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
+    "@clerk/react": "^6.11.1",
     "@google/genai": "^2.4.0",
+    "@supabase/supabase-js": "^2.108.2",
     "@tailwindcss/vite": "^4.1.14",
     "@vitejs/plugin-react": "^5.0.4",
     "dotenv": "^17.2.3",
